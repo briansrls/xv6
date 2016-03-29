@@ -112,7 +112,7 @@ __asm__ (
 	"popl %edx\n\t"
 	"popl %ecx\n\t"
 	"popl %eax\n\t"
-//	"addl 4, %esp\n\t"
+	"addl 4, %esp\n\t"
 	"leave\n\t"
 	"ret\n\t"
 );

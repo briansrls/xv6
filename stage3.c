@@ -15,7 +15,7 @@ void handle_signal(siginfo_t info)
 	ptr+= (int)sizeof(&ptr)/4;
 	}
 	//printf(1, "Size of element: %d\n", (int)sizeof(&info.signum)*10);
-	(*ptr) += (int)sizeof(&ptr)/4;	
+	(*ptr) += (int)sizeof(&ptr)*5/4;	
 	}
 		
 }
